@@ -2,7 +2,7 @@ version: "3"
 services:
   registry:
     container_name: registry
-    image: registry:2.6
+    image: registry:2.8
     ports:
       - 5000:5000
     volumes:
